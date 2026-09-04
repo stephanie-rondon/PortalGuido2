@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Centralização vertical e horizontal da página inteira */
+body {
+    background-color: #2d2c55;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 380px;
+    padding: 20px;
+}
+
+/* Caixa central onde ficam os botões */
+.card-acesso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.card-acesso h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Estilo padronizado para os botões */
+.btn {
+    width: 100%;
+    padding: 14px 0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Botão "Sou aluno" (Destaque principal em branco) */
+.btn-principal {
+    background-color: #ffffff;
+    color: #2d2c55;
+}
+
+.btn-principal:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+/* Botão "Sou professor" (Estilo contorno) */
+.btn-secundario {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.btn-secundario:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Link "Sou visitante" */
+.link-visitante {
+    color: #b3b2d0;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    transition: color 0.2s;
+}
+
+.link-visitante:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

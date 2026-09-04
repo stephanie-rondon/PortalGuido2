@@ -5,13 +5,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f2f5f9;
-    color: #333;
+    background-color: #F4F6F8;
+    color: #24243E;
 }
 
 header {
-    background-color: #2563eb;
-    color: white;
+    background-color: #24243E;
+    color: #FFFFFF;
     text-align: center;
     padding: 30px;
 }
@@ -25,7 +25,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
     margin: 10px;
     font-weight: bold;
@@ -38,7 +38,7 @@ nav a {
 }
 
 form {
-    background-color: white;
+    background-color: #FFFFFF;
     padding: 25px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -49,6 +49,7 @@ label {
     margin-top: 15px;
     margin-bottom: 5px;
     font-weight: bold;
+    color: #24243E;
 }
 
 input,
@@ -58,6 +59,8 @@ textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
+    background-color: #FFFFFF;
+    color: #24243E;
 }
 
 textarea {
@@ -69,22 +72,22 @@ button {
     padding: 12px 20px;
     border: none;
     border-radius: 6px;
-    background-color: #2563eb;
-    color: white;
+    background-color: #6C63FF;
+    color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
 }
 
 button:hover {
-    background-color: #1d4ed8;
+    background-color: #5248e2;
 }
 
 .botao {
     display: inline-block;
     margin-left: 10px;
     padding: 12px 20px;
-    background-color: #64748b;
-    color: white;
+    background-color: #24243E;
+    color: #FFFFFF;
     text-decoration: none;
     border-radius: 6px;
 }
@@ -96,22 +99,22 @@ button:hover {
 }
 
 .card {
-    background-color: white;
+    background-color: #FFFFFF;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card h2 {
-    color: #2563eb;
+    color: #6C63FF;
 }
 
 .assistir {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #16a34a;
-    color: white;
+    background-color: #6C63FF;
+    color: #FFFFFF;
     text-decoration: none;
     border-radius: 6px;
 }
@@ -121,8 +124,8 @@ button:hover {
     margin-top: 10px;
     margin-left: 5px;
     padding: 10px 15px;
-    background-color: #dc2626;
-    color: white;
+    background-color: #24243E;
+    color: #FFFFFF;
     text-decoration: none;
     border-radius: 6px;
 }
